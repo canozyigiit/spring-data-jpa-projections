@@ -1,10 +1,10 @@
 package com.canozyigit.springdatajpaprojections.projection;
 
 public interface AddressView {
-    String getZipCode();
+    String getZipCode();//Closed Projections
 
-    String getCity();
+    String getCity();//Closed Projections
 
-    PersonView getPerson();
+    PersonView getPerson();//Closed Projections
 
 }
